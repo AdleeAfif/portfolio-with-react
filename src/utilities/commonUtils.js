@@ -16,7 +16,5 @@ export const GET_SCREEN_INDEX = (screen_name)=>{
             return i
     }
 
-    //Testing Git
-
     return -1
 }
