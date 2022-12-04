@@ -34,7 +34,7 @@
 }
 
 .highlighted-text {
-  color: #FFE66D;
+  color: #ffe66d;
 }
 
 .profile-role-tagline {
@@ -45,24 +45,24 @@
 
 .profile-options .highlighted-btn {
   margin: 0 0 0 28px;
-  background-color: #FFCC53;
+  background-color: #ffcc53;
 }
 
 .profile-options .highlighted-btn:hover {
   margin: 0 0 0 28px;
-  background-color: #FFE66D;
-  color: #172A3A;
+  background-color: #ffe66d;
+  color: #172a3a;
 }
 
-.profile-options .primary-btn{
-  background-color: #172A3A;
-  color: #F7FFF7;
+.profile-options .primary-btn {
+  background-color: #172a3a;
+  color: #f7fff7;
 }
 
-.profile-options .primary-btn:hover{
-  background-color: #172A3A;
-  color: #F7FFF7;
-  border-color: #FFE66D;
+.profile-options .primary-btn:hover {
+  background-color: #172a3a;
+  color: #f7fff7;
+  border-color: #ffe66d;
 }
 
 .profile-picture {
@@ -92,7 +92,7 @@
 }
 
 .colz .colz-icon i {
-  color: #F7FFF7;
+  color: #f7fff7;
   padding: 8px;
   padding-left: 0px;
 }
@@ -101,72 +101,71 @@
   transform: scale(1.5);
 }
 
-@media only screen and (max-width: 1110px){
-  .profile-picture{
+@media only screen and (max-width: 1110px) {
+  .profile-picture {
     margin: 0 0px 0 80px;
   }
 
-  .profile-details-name{
+  .profile-details-name {
     font-size: 20px;
   }
 
-  .profile-details-roles .primary-text{
+  .profile-details-roles .primary-text {
     font-size: 12px;
   }
 
-  .profile-options .btn{
+  .profile-options .btn {
     width: 120px;
     padding: 11px 0;
     z-index: 700;
   }
 }
 
-@media only screen and (max-width: 910px){
-
-  .profile-picture{
+@media only screen and (max-width: 910px) {
+  .profile-picture {
     height: 320px;
     width: 320px;
     margin: 0 0 0 4px;
   }
 }
 
-@media only screen and (max-width: 810px){
-  .profile-picture{
+@media only screen and (max-width: 810px) {
+  .profile-picture {
     margin: 0 !important;
   }
 
-  .profile-parent{
+  .profile-parent {
     flex-direction: column-reverse;
     margin: 40px 0 0 0;
   }
 
-  .profile-options{
+  .profile-options {
     display: flex;
     justify-content: space-between;
   }
 
-  .profile-details{
+  .profile-details {
     margin: 25px 0 0;
   }
 
-  .profile-options .highlighted-btn{
+  .profile-options .highlighted-btn {
     margin: 0 !important;
   }
 
-  .profile-options, .profile-details-roles{
+  .profile-options,
+  .profile-details-roles {
     text-align: center;
   }
 }
 
-@media (max-width: 375px){
-
-  .profile-picture{
+@media (max-width: 375px) {
+  .profile-picture {
     height: 275px;
     width: 275px;
     margin-top: -90px;
   }
 
-  .profile-details{
+  .profile-details {
     width: 90%;
   }
 }
